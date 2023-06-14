@@ -12,11 +12,16 @@ const Contact = () => {
             amet ullam placeat! Ipsum qui quae sint tenetur officia porro?
             Vitae.
           </p>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/xeqwyazn"
+            method="POST"
+          >
             <input
               type="email"
               className="form-input"
               placeholder="enter email"
+              name="_replyto"
             />
             <button type="submit" className="submit-btn">
               subscribe
